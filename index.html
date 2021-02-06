@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AU's BANK</title>
+    <link rel="shortcut icon" href="image/icon 5.PNG" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
 <body>
     <div id="login-area">
-        <h1 class="bank-title text-center">Welcome To AU's BANK..</h1>
+        <h1 class="bank-title text-center"> Welcome To <span style="color: steelblue;">AU's BANK..</span></h1>
         <div class="submit-area">
             <h4>Log in</h4>
             <input type="text" class="form-control" placeholder="Email">
@@ -60,6 +62,8 @@
         </div>
     </div>
     <script>
+        document.body.style.background = 'lightgrey';
+
         // login button event handler 
         const loginBtn = document.getElementById('login');
         loginBtn.addEventListener('click', function() {
